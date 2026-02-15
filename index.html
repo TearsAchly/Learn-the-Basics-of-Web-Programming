@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -14,10 +14,13 @@
   </head>
   <body>
     <header>
-      <h1>Bandung</h1>
-      The largest metropolitan city in West Java Province, it also serves as the
-      provincial capital.
-
+      <div class="jumbotron">
+        <h1>Bandung</h1>
+        <p>
+          The largest metropolitan city in West Java Province, it also serves as
+          the provincial capital.
+        </p>
+      </div>
       <nav>
         <ul>
           <li><a href="#History">History</a></li>
@@ -28,10 +31,14 @@
     </header>
 
     <main>
-      <div>
+      <div id="content">
         <article>
-          <h2 id="History">history</h2>
-          <img src="./assets/image/history.jpg" alt="history" />
+          <h2 id="History" class="card">history</h2>
+          <img
+            src="./assets/image/history.jpg"
+            alt="history"
+            class="featured-image"
+          />
           <p>
             The word Bandung comes from the word "bendung" or "dam," referring
             to the damming of the Citarum River by the lava of Mount Tangkuban
@@ -54,8 +61,12 @@
           </p>
         </article>
         <article>
-          <h2 id="Geographical">geographical</h2>
-          <img src="/assets/image/geografis.jpg" alt="geographical" />
+          <h2 id="Geographical" class="card">geographical</h2>
+          <img
+            src="/assets/image/geografis.jpg"
+            alt="geographical"
+            class="featured-image"
+          />
           <p>
             The city of Bandung is surrounded by mountains, so its morphology
             resembles a giant bowl. Geographically, the city is located in the
@@ -73,7 +84,7 @@
           </p>
         </article>
         <article>
-          <h2 id="Tour">tour</h2>
+          <h2 id="Tour" class="card">tour</h2>
           <p>
             Since the opening of the Cipularang Toll Road, Bandung has become a
             prime weekend getaway destination, especially for people from the
@@ -83,7 +94,11 @@
           </p>
           <section>
             <h3>Farm House Lembang</h3>
-            <img src="/assets/image/farm-house.jpg" alt="farm-house" />
+            <img
+              src="/assets/image/farm-house.jpg"
+              alt="farm-house"
+              class="featured-image"
+            />
             <h4>Located</h4>
             <p>
               located on the main Bandung-Lembang route, Farm House is a tourist
@@ -99,7 +114,11 @@
           </section>
           <section>
             <h3>Observatorium Bosscha</h3>
-            <img src="/assets/image/bosscha.jpg" alt="bosscha" />
+            <img
+              src="/assets/image/bosscha.jpg"
+              alt="bosscha"
+              class="featured-image"
+            />
             <p>
               It houses several telescopes, including the Zeiss Double
               Refractor, Schmidt Milky Way Telescope, Bamberg Refractor, GOTO
@@ -116,7 +135,7 @@
         </article>
       </div>
       <aside>
-        <article class="profile">
+        <article class="profile" class="card">
           <header>
             <h2>Bandung</h2>
             <p>Flower City, Paris of Java</p>
