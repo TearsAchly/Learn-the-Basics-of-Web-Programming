@@ -72,6 +72,8 @@ nav li {
 nav {
   background-color: #00a2c6;
   padding: 5px;
+  position: sticky;
+  top: 0;
 }
 
 footer {
@@ -96,4 +98,23 @@ nav a:hover {
 
 .profile header {
   text-align: center;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+header  {
+  display: inline;
+}
+
+aside {
+  float: right;
+  width: 25%;
 }
