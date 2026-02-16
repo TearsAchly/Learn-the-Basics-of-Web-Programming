@@ -2,19 +2,19 @@
   box-sizing: border-box;
 }
 
-body {
+.body {
   font-family: "Quicksand", sans-serif;
 
   margin: 0;
   padding: 0;
 }
 
-h2,
-h3 {
+.h2,
+.h3 {
   color: #00a2c6;
 }
 
-footer {
+.footer {
   padding: 20px;
   color: white;
   background-color: #00a2c6;
@@ -23,7 +23,7 @@ footer {
   font-weight: bold;
 }
 
-nav a {
+.nav a {
   font-size: 18px;
 
   font-weight: 400;
@@ -32,7 +32,7 @@ nav a {
   color: white;
 }
 
-nav a:hover {
+.nav a:hover {
   font-weight: bold;
 }
 
@@ -48,7 +48,7 @@ nav a:hover {
   object-position: center;
 }
 
-.profile img {
+.profile-image {
   max-width: 200px;
 }
 
@@ -67,18 +67,18 @@ nav a:hover {
   color: white;
 }
 
-nav ul {
+.nav .wrapper-nav-list {
   padding-inline: 4rem;
   display: flex;
 
   gap: 2rem;
 }
 
-nav li {
+.nav li {
   list-style-type: none;
 }
 
-nav {
+.nav {
   background-color: #00a2c6;
   padding: 5px;
 
@@ -86,14 +86,14 @@ nav {
   top: 0;
 }
 
-main {
+.main {
   padding: 20px;
 
   display: flex;
   gap: 1.5rem;
 }
 
-#content {
+.wrapper-content {
   flex: 5;
 
   display: flex;
@@ -101,36 +101,42 @@ main {
   gap: 1rem 2rem;
 }
 
-aside {
+.aside {
   flex: 1;
 }
 
-header {
+.table {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+.header {
   display: inline;
 }
 
-.table {
+.wrapper-profile,.wrapper-table {
   text-align: center;
 }
 
 /* Devices with screen width 1200px and below */
 @media screen and (max-width: 1200px) {
-  main {
+  .main {
     flex-flow: column nowrap;
   }
 
-  main aside {
+  .main .aside {
     align-self: center;
   }
 }
 
 /* Devices with screen width 768 px and below */
 @media screen and (max-width: 768px) {
-  nav ul {
+  .nav .wrapper-nav-list {
     justify-content: center;
   }
 
-  main aside {
+  .main .aside {
     align-self: stretch;
   }
 }
