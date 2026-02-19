@@ -73,3 +73,13 @@ This repository is created as a personal learning archive and practice project t
 - MDN Web Docs: https://developer.mozilla.org/en-US/
 - HTML Reference: https://developer.mozilla.org/en-US/docs/Web/HTML
 - CSS Reference: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+---
+
+## Copyright Notice
+
+The learning materials for the Dicoding course **"Learn the Basics of Web Programming"** are protected by copyright and are officially registered by Dicoding.
+
+This repository is created for personal learning purposes only and contains my own notes and practice code. Any reproduction, redistribution, or commercial use of Dicoding’s original course modules (in whole or in part), whether in printed or electronic form, requires formal written permission from the copyright holder.
+
+All rights belong to Dicoding.
